@@ -1,0 +1,49 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 头部 -->
+    <view class="header img">
+       <image src="../images/assembly/assembly-banner.jpg" alt="" class="img" mode="widthFix"></image>
+    </view>
+  <!-- 空间整装 -->
+  <view class="customize img">
+        <image src="../images/assembly/roomage-img1.jpg"  class='img'  mode="widthFix"></image>
+        <image src="../images/assembly/roomage-img2.jpg" class='img'  mode="widthFix"></image>
+  </view>
+
+  <!-- 整装服务 -->
+  <view class="customize img">
+        <image src="../images/assembly/001.jpg"  class='img'  mode="widthFix"></image>
+        <image src="../images/assembly/002.jpg" class='img'  mode="widthFix"></image>
+        <image src="../images/assembly/003.jpg"  class='img'  mode="widthFix"></image>
+        <image src="../images/assembly/004.jpg" class='img'  mode="widthFix"></image>
+  </view>
+  <!--表单列表-->
+    <view class='advisory-box clearfix'>
+      <form bindsubmit="formSubmit" bindreset="formReset">
+        <view class="advisory">
+          <view class="advisory-input">
+              <view class="input-boxitem clearfix mb30">
+                  <p class="fl"><span class="colred">*</span>面积：</p>
+                  <input type="text" name="mianji" placeholder="请输入您的项目面积"/>
+              </view>
+              <view class='mb30-box'></view>
+              <view class="input-boxitem clearfix mb30">
+                  <p class="fl"><span class="colred">*</span>姓名：</p>
+                  <input type="text" name="name" placeholder="请输入对您的称呼"/>
+              </view>
+              <view class='mb30-box'></view>
+              <view class="input-boxitem clearfix mb40">
+                  <p class="fl"><span class="colred">*</span>手机号：</p>
+                  <input type="text" name="phone" class="phone-input" placeholder="请输入您的联系方式"/>
+              </view>
+              <view class='mb40-box'></view>
+              <!-- 按钮 -->
+              <button formType="submit" class="obtain">立即提交抢0元定制方案</button>
+            
+          </view>
+        </view>
+      </form>
+    </view>
+ 
+</view>
+   

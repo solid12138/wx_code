@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 头部 -->
+    <view class="header img">
+       <image src="../images/assembly/assembly-banner.jpg" alt="" class="img" mode="widthFix"></image>
+    </view>
+ 
+</view>
+   

@@ -1,0 +1,40 @@
+
+{
+  "pages": [
+    "pages/index/index",   
+    "pages/assembly/assembly",
+    "pages/personal/personal",
+    "pages/tabone/tabone",
+    "pages/tabtwo/tabtwo"
+  ],
+  "window": {
+    "navigationBarTitleText": "Demo"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/common/home_ico.jpg",
+        "selectedIconPath": "images/common/home_ico-hover.jpg"
+      },
+      {
+        "pagePath": "pages/assembly/assembly",
+        "text": "空间整装",
+        "iconPath": "images/common/sort_ico.jpg",
+        "selectedIconPath": "images/common/sort_ico-hover.jpg"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "立即报价",
+        "iconPath": "images/common/personal_ico.jpg",
+        "selectedIconPath": "images/common/personal_ico-hover.jpg"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

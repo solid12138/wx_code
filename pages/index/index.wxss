@@ -1,0 +1,77 @@
+/**index.wxss**/
+
+.customize{
+  display: block;
+}
+/* 顶部banner */
+.img { width: 100%;display: block; height: 100%; }
+
+/* 空间分类 */
+.image-group {
+  display: flex;
+  white-space: nowrap;
+  margin-top: 20rpx;
+}
+.image-group image {
+  display: inline-block;
+  width: 270rpx;
+  height: 129rpx;
+  margin-right: 20rpx;
+}
+/* 间隔线 */
+.spacing-box{ margin-top: 20rpx; width: 100%; height: 15rpx; background: #edeff4; }
+
+/* 高级定制文字 */
+.customize-img{ display: block; width: 100%; height: 100%;}
+
+/* 定制方案部分 */
+.program-title img{ display: block; width: 100%; }
+.advisory-box{
+  display: block;
+}
+
+/* 左浮动 */
+.left { float:left; }
+/* 右浮动 */
+.right{ float:right; }
+.fl { 
+  display: inline; 
+  float: left;
+}
+.fr { display: inline; float: right;}
+.relative { position: relative; }
+.clearfix:after { display: block; content: ""; clear: both}
+.clearfix { zoom: 1}
+
+/* 报名表单 */
+.advisory{ background-color: #ffffff; padding-top: 30rpx; text-align: center; padding-bottom: 30rpx; }
+.advisory span{ font-size: 26rpx; color: #000000; line-height: 26rpx; margin-right: 12rpx; }
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #787878; }
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #787878; }
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #787878; }
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #787878; }
+body .mb30{ margin-bottom: 30rpx; }
+body .mb40{ margin-bottom: 40rpx; }
+.input-boxitem { width: 690rpx; height: 102rpx; background-color: #f7f7f7; padding-left: 17rpx; box-sizing: border-box; margin-bottom: 16rpx; margin: 0 auto; overflow: hidden; }
+.input-boxitem p { display: block;height: 100%; line-height: 28rpx; font-size: 28rpx; color: #787878;padding-top: 39rpx; box-sizing: border-box; }
+.input-boxitem input { height: 100%; width: 70%; border: none; font-size: 28rpx; background-color: #f7f7f7; float: left;text-align: left;padding-left: 16rpx; }
+.advisory .colred { color: #e70012; }
+.input-boxitem .phone-input{ width: 64%; }
+.obtain { display: block; width: 690rpx; height: 100rpx; line-height: 100rpx; font-size: 30rpx; background-color: #58bdaf; text-align: center; color: #fff; margin: 0 auto; box-sizing: border-box; border-radius: 0px;border: none;}
+body .mr75{ margin-right: 75rpx; }
+::-webkit-input-placeholder
+{
+    text-align: left;
+}
+.mb30-box{
+  height: 30rpx;
+  width: 750rpx;
+}
+.mb40-box{
+  height: 40rpx;
+  width: 750rpx;
+}

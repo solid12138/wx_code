@@ -1,0 +1,72 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 头部 -->
+    <view class="header img">
+       <image src="../images/home/home-banner.jpg" alt="" class="img" mode="widthFix"></image>
+    </view>
+  <!-- 空间分类 -->
+    <scroll-view class="image-group" scroll-x="true">
+        <image src="../images/home/home-sort1.jpg" alt=""></image> 
+        <image src="../images/home/home-sort2.jpg" alt=""></image> 
+        <image src="../images/home/home-sort3.jpg" alt=""></image> 
+        <image src="../images/home/home-sort4.jpg" alt=""></image> 
+        <image src="../images/home/home-sort5.jpg" alt=""></image> 
+        <image src="../images/home/home-sort6.jpg" alt=""></image> 
+    </scroll-view>
+    <!-- 间隔线 -->
+    <view class="spacing-box"></view>
+    <!-- 高级定制文字 -->
+    <view class="customize img">
+         <image src="../images/home/customize-img1.jpg"  class='img'  mode="widthFix"></image>
+         <image src="../images/home/customize-img2.jpg" class='img'  mode="widthFix"></image>
+    </view>
+    <!-- 定制方案 -->
+    <view class="program-title img">
+          <image src="../images/home/program-title.jpg"  class='img'  mode="widthFix"></image>
+    </view>
+
+    <!--表单列表-->
+    <view class='advisory-box clearfix'>
+      <form bindsubmit="formSubmit" bindreset="formReset">
+        <view class="advisory">
+          <view class="advisory-input">
+              <view class="input-boxitem clearfix mb30">
+                  <p class="fl"><span class="colred">*</span>面积：</p>
+                  <input type="text" name="mianji" placeholder="请输入您的项目面积"/>
+              </view>
+              <view class='mb30-box'></view>
+              <view class="input-boxitem clearfix mb30">
+                  <p class="fl"><span class="colred">*</span>姓名：</p>
+                  <input type="text" name="name" placeholder="请输入对您的称呼"/>
+              </view>
+              <view class='mb30-box'></view>
+              <view class="input-boxitem clearfix mb40">
+                  <p class="fl"><span class="colred">*</span>手机号：</p>
+                  <input type="text" name="phone" class="phone-input" placeholder="请输入您的联系方式"/>
+              </view>
+              <view class='mb40-box'></view>
+              <!-- 按钮 -->
+              <button formType="submit" class="obtain">立即提交抢0元定制方案</button>
+            
+          </view>
+        </view>
+      </form>
+    </view>
+
+
+    <!-- 间隔线 -->
+    <view class="spacing-box"></view>
+
+    <view class="customize img">
+         <image src="../images/home/space-title1.jpg"  class='img'  mode="widthFix"></image>
+         <image src="../images/home/space-title2.jpg" class='img'  mode="widthFix"></image>
+    </view>
+    <!--案例列表-->
+     <view class="customize img">
+         <image src="../images/home/anli1.jpg"  class='img'  mode="widthFix"></image>
+         <image src="../images/home/anli2.jpg" class='img'  mode="widthFix"></image>
+    </view>
+    
+  
+</view>
+   

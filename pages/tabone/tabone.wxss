@@ -1,0 +1,25 @@
+/**index.wxss**/
+
+/* 顶部banner */
+.img { width: 100%;display: block; height: 100%; }
+
+/* 空间分类 */
+.image-group {
+  display: flex;
+  white-space: nowrap;
+  margin-top: 20rpx;
+}
+.image-group image {
+  display: inline-block;
+  width: 270rpx;
+  height: 129rpx;
+  margin-right: 20rpx;
+}
+/* 间隔线 */
+.spacing-box{ margin-top: 20rpx; width: 100%; height: 15rpx; background: #edeff4; }
+
+/* 高级定制文字 */
+.customize-img{ display: block; width: 100%; height: 100%;}
+
+/* 定制方案部分 */
+.program-title img{ display: block; width: 100%; }
